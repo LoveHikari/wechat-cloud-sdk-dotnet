@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	  <PackageId>Hikari.WeChatCloud.Sdk</PackageId>
+	  <Authors>Hikari</Authors>
+	  <Product>Hikari.WeChatCloud.Sdk</Product>
+	  <Company>5cm R &amp; D department</Company>
+	  <Description>微信云数据库操作类</Description>
+	  <Version>1.0.0</Version>
+	  <Language>zh-CN</Language>
+	  <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Hikari.Common" Version="8.0.6" />
+  </ItemGroup>
+
+</Project>
