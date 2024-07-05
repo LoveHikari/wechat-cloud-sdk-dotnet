@@ -14,7 +14,7 @@ namespace TestProject1
                 //Limit = 10,
                 Where = new Dictionary<string, string>()
                 {
-                    {"park" , "17e3426e6212ebea0fa6ab583a412e9a"}
+                    {"park" , "7fbac6cf5f2b77230001227c278d93da"}
                 }
             });
 
@@ -23,7 +23,7 @@ namespace TestProject1
             await dd.GetAccessTokenAsync();
             var v2 = await dd.QueryListAsync<Building1>("building", new Hikari.UniCloud.Sdk.QueryParameter()
             {
-                Where = "'parkId'=='648fc4ac28064a401040b498' && 'level'==1 && 'isDel'!=true"
+                Where = "'parkId'=='63e9e80528064aa7a8330cfd' && 'isDel'!=true"
             });
             foreach (var b2 in v2)
             {
